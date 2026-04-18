@@ -1,4 +1,4 @@
-package apps.endpoints;
+package api.endpoints;
 
 /*
  * Swagger URI ----> https://petstore.swagger.io
