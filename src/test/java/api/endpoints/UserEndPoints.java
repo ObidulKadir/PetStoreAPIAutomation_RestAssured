@@ -24,15 +24,13 @@ public class UserEndPoints {
 
 //	2. The "Read User" Button (POST)
 	public static Response readUser(String userName) {
-		Response response = given().pathParam("username", userName).when().get(Routes.get_url); // loop up the address
-																								// in out address book
-																								// (Routes)
+		Response response = given().pathParam("username", userName).when().get(Routes.get_url); // loop up the address in out address book (Routes)
 
 		return response;
 	}
 
 //	3. The "update User" Button (POST)
-	public static Response createUser(String userName, User payload) {
+	public static Response updateUser(String userName, User payload) {
 		Response response = given().contentType("application/json") // we are sending json "forms"
 				.accept("application/json") // We want the computer to talk back in JSON
 				.body(payload) // here is user form we filled out.
