@@ -37,7 +37,7 @@ public class DataProviders {
         String usernames[] = new String[rownum];
 
         for (int i = 1; i <= rownum; i++) {
-            usernames[i - 1] = xl.getCellData("Sheet1", i, 0); // column 0 = username
+            usernames[i - 1] = xl.getCellData("Sheet1", i, 1); // column 1 = username
         }
 
         return usernames;
