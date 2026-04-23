@@ -1,0 +1,17 @@
+2026-04-21 21:19:58 INFO  UserTests:43 - ************* Creating User ***************
+2026-04-21 21:20:03 INFO  UserTests:46 - ************* User is created ***************
+2026-04-21 21:20:03 INFO  UserTests:53 - ************* Reading User info ***************
+2026-04-21 21:20:05 INFO  UserTests:57 - ************* Reading User info displayed ***************
+2026-04-21 21:20:05 INFO  UserTests:65 - ************* Updating  User info ***************
+2026-04-21 21:20:08 INFO  UserTests:73 - ************* User is updated ***************
+2026-04-21 21:20:12 INFO  UserTests:85 - ************* Deleting  User info ***************
+2026-04-21 21:20:15 INFO  UserTests:91 - ************* User is deleted. ***************
+2026-04-21 21:24:52 DEBUG UserTests:37 - .....Debugging........
+2026-04-21 21:24:52 INFO  UserTests:44 - ************* Creating User ***************
+2026-04-21 21:24:57 INFO  UserTests:47 - ************* User is created ***************
+2026-04-21 21:24:57 INFO  UserTests:54 - ************* Reading User info ***************
+2026-04-21 21:24:59 INFO  UserTests:58 - ************* Reading User info displayed ***************
+2026-04-21 21:24:59 INFO  UserTests:66 - ************* Updating  User info ***************
+2026-04-21 21:25:01 INFO  UserTests:74 - ************* User is updated ***************
+2026-04-21 21:25:02 INFO  UserTests:86 - ************* Deleting  User info ***************
+2026-04-21 21:25:04 INFO  UserTests:92 - ************* User is deleted. ***************
