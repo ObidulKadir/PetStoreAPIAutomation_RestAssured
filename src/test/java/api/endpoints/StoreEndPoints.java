@@ -24,7 +24,7 @@ public class StoreEndPoints {
 //	2. create an order
 	public static Response createOrder(Store storePayload) {
 		
-		Response response = given().contentType("aplication/json")
+		Response response = given().contentType("application/json")
 				.accept("application/json")
 				.body(storePayload)
 				
@@ -48,7 +48,7 @@ public class StoreEndPoints {
 
 	public static Response deleteOrder(long orderId) {
 		
-		Response response = given().contentType("aplication/json")
+		Response response = given().contentType("application/json")
 				.accept("application/json")
 				.pathParam("orderId", orderId)
 				
