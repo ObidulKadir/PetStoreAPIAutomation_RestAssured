@@ -75,6 +75,7 @@ public class PetTests {
         Assert.assertEquals(response.jsonPath().getString("name"), petPayload.getName());
         
         id = response.jsonPath().getLong("id");
+        System.out.println("After post the id is "+id);
     }
 
     @Test(priority = 2)
@@ -88,18 +89,17 @@ public class PetTests {
         Assert.assertEquals(response.getStatusCode(), 200);
         Assert.assertEquals(response.jsonPath().getLong("id"), petPayload.getId());
     }
-
     @Test(priority = 3)
     public void testUpdatePet() {
-        // Update the name in the payload
-    	petPayload.setName(faker.dog().name() + " Updated");
+        petPayload.setName(faker.animal().name());
+        petPayload.setStatus("available");
 
-        Response response = PetEndPoints.updatePet((long) id, petPayload);        
+        Response response = PetEndPoints.updatePet(id, petPayload);        
         response.then().log().all();
 
-        // Assertions
         Assert.assertEquals(response.getStatusCode(), 200);
-        response.then().body("id", org.hamcrest.Matchers.equalTo(id));
-    }
+        
+        response.then().body("message", org.hamcrest.Matchers.equalTo(String.valueOf(id)));
 
+}
 }

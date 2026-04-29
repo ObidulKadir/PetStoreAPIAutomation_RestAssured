@@ -28,13 +28,15 @@ public class PetEndPoints {
 
 //	3. The "update pet info" Button (POST)
 	public static Response updatePet(long petId, Pet payload) {
+	    // We take the data OUT of the payload and send it as Form Params
 	    Response response = given()
-	            .contentType("application/json") 
+	            .contentType("application/x-www-form-urlencoded") 
 	            .accept("application/json")
-	            .pathParam("petId", petId) // Sets the variable for the URL
-	            .body(payload)             // Sets the JSON data
+	            .pathParam("petId", petId)
+	            .formParam("name", payload.getName())    // Extract name from POJO
+	            .formParam("status", payload.getStatus()) // Extract status from POJO
 	    .when()
-	            .post(Routes.updatePet_url); // The action comes LAST
+	            .post(Routes.updatePet_url);
 
 	    return response;
 	}

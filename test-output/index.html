@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-PetSuite" class="navigator-link">
-              <span class="suite-name border-failed">PetSuite</span>
+              <span class="suite-name border-passed">PetSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-PetSuite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-PetSuite" class="hide-methods failed suite-PetSuite"> (hide)</a> <!-- hide-methods failed suite-PetSuite -->
-                      <a href="#" panel-name="suite-PetSuite" class="show-methods failed suite-PetSuite"> (show)</a> <!-- show-methods failed suite-PetSuite -->
-                    </span>
-                    <div class="method-list-content failed suite-PetSuite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-PetSuite" title="api.tests.PetTests" class="method navigator-link" hash-for-method="testUpdatePet">testUpdatePet</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-PetSuite -->
+                    <span class="method-stats">11 methods,   11 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,12 +103,57 @@
                     <div class="method-list-content passed suite-PetSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.tests.StoreTests" class="method navigator-link" hash-for-method="testDeleteOrder">testDeleteOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.tests.UserTests" class="method navigator-link" hash-for-method="testDeleteUser">testDeleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.tests.StoreTests" class="method navigator-link" hash-for-method="testGetOrderById">testGetOrderById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-PetSuite" title="api.tests.PetTests" class="method navigator-link" hash-for-method="testGetPetById">testGetPetById</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.tests.StoreTests" class="method navigator-link" hash-for-method="testGetStoreInventory">testGetStoreInventory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.tests.UserTests" class="method navigator-link" hash-for-method="testGetUser">testGetUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.tests.StoreTests" class="method navigator-link" hash-for-method="testPostOrder">testPostOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-PetSuite" title="api.tests.PetTests" class="method navigator-link" hash-for-method="testPostPet">testPostPet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.tests.UserTests" class="method navigator-link" hash-for-method="testPostUser">testPostUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.tests.PetTests" class="method navigator-link" hash-for-method="testUpdatePet">testUpdatePet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.tests.UserTests" class="method navigator-link" hash-for-method="testUpdateUser">testUpdateUser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-PetSuite -->
@@ -137,26 +168,78 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-PetSuite" class="panel PetSuite">
-          <div class="suite-PetSuite-class-failed">
+          <div class="suite-PetSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">api.tests.PetTests</span>
+              <img src="passed.png"/>
+              <span class="class-name">api.tests.UserTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testUpdatePet">
-                  </a> <!-- testUpdatePet -->
-                  <span class="method-name">testUpdatePet</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [415]
-	at api.tests.PetTests.testUpdatePet(PetTests.java:101)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
+                  <a name="testDeleteUser">
+                  </a> <!-- testDeleteUser -->
+                  <span class="method-name">testDeleteUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUser">
+                  </a> <!-- testGetUser -->
+                  <span class="method-name">testGetUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostUser">
+                  </a> <!-- testPostUser -->
+                  <span class="method-name">testPostUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateUser">
+                  </a> <!-- testUpdateUser -->
+                  <span class="method-name">testUpdateUser</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-PetSuite-class-failed -->
+          </div> <!-- suite-PetSuite-class-passed -->
+          <div class="suite-PetSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.tests.StoreTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteOrder">
+                  </a> <!-- testDeleteOrder -->
+                  <span class="method-name">testDeleteOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetOrderById">
+                  </a> <!-- testGetOrderById -->
+                  <span class="method-name">testGetOrderById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetStoreInventory">
+                  </a> <!-- testGetStoreInventory -->
+                  <span class="method-name">testGetStoreInventory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostOrder">
+                  </a> <!-- testPostOrder -->
+                  <span class="method-name">testPostOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetSuite-class-passed -->
           <div class="suite-PetSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -177,6 +260,13 @@
                   <span class="method-name">testPostPet</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdatePet">
+                  </a> <!-- testUpdatePet -->
+                  <span class="method-name">testUpdatePet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-PetSuite-class-passed -->
         </div> <!-- panel PetSuite -->
@@ -188,13 +278,21 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;PetSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;PetSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;api.utilities.ExtentReportManager&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;UserTest&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;UserTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.tests.UserTests&quot;/&gt;
+    &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- UserTest --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;PetTest&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;StoreTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.tests.StoreTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- StoreTest --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;PetTest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;api.tests.PetTests&quot;/&gt;
     &lt;/classes&gt;
@@ -210,7 +308,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">UserTest (0 classes)</span>
+                <span class="test-name">UserTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">StoreTest (1 class)</span>
               </li>
               <li>
                 <span class="test-name">PetTest (1 class)</span>
@@ -239,24 +340,56 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testPostPet')
 data.setCell(0, 2, 'api.tests.PetTests')
-data.setCell(0, 3, 5213);
+data.setCell(0, 3, 3571);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testGetPetById')
-data.setCell(1, 2, 'api.tests.PetTests')
-data.setCell(1, 3, 1649);
+data.setCell(1, 1, 'testGetStoreInventory')
+data.setCell(1, 2, 'api.tests.StoreTests')
+data.setCell(1, 3, 3273);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testUpdatePet')
-data.setCell(2, 2, 'api.tests.PetTests')
-data.setCell(2, 3, 1640);
+data.setCell(2, 1, 'testUpdateUser')
+data.setCell(2, 2, 'api.tests.UserTests')
+data.setCell(2, 3, 3148);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testPostUser')
+data.setCell(3, 2, 'api.tests.UserTests')
+data.setCell(3, 3, 2614);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testGetOrderById')
+data.setCell(4, 2, 'api.tests.StoreTests')
+data.setCell(4, 3, 1598);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testUpdatePet')
+data.setCell(5, 2, 'api.tests.PetTests')
+data.setCell(5, 3, 1593);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testPostOrder')
+data.setCell(6, 2, 'api.tests.StoreTests')
+data.setCell(6, 3, 1587);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testGetUser')
+data.setCell(7, 2, 'api.tests.UserTests')
+data.setCell(7, 3, 1580);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testGetPetById')
+data.setCell(8, 2, 'api.tests.PetTests')
+data.setCell(8, 3, 1572);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testDeleteUser')
+data.setCell(9, 2, 'api.tests.UserTests')
+data.setCell(9, 3, 1551);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testDeleteOrder')
+data.setCell(10, 2, 'api.tests.StoreTests')
+data.setCell(10, 3, 1533);
 window.suiteTableData['PetSuite']= { tableData: data, tableDiv: 'times-div-PetSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-PetSuite">
               </div> <!-- times-div-PetSuite -->
             </div> <!-- times-div -->
@@ -282,24 +415,95 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">api.tests.PetTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">api.tests.UserTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setupData</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.PetTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupData</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.StoreTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupData</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testGetStoreInventory</span>
+                <span class="method-start">128 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.PetTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testPostPet</span>
-                <span class="method-start">340 ms</span>
+                <span class="method-start">244 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.UserTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPostUser</span>
+                <span class="method-start">787 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUser</span>
+                <span class="method-start">3425 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.StoreTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPostOrder</span>
+                <span class="method-start">3425 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.PetTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testGetPetById</span>
-                <span class="method-start">5566 ms</span>
+                <span class="method-start">3818 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.UserTests</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
+                <span class="method-name">testUpdateUser</span>
+                <span class="method-start">5008 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.StoreTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetOrderById</span>
+                <span class="method-start">5016 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.PetTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
                 <span class="method-name">testUpdatePet</span>
-                <span class="method-start">7219 ms</span>
+                <span class="method-start">5391 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.StoreTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDeleteOrder</span>
+                <span class="method-start">6616 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.tests.UserTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDeleteUser</span>
+                <span class="method-start">8157 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

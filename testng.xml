@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="PetSuite">
+<suite name="PetSuite" parallel="tests" thread-count="3">
 
 	<listeners>
 		<listener class-name="api.utilities.ExtentReportManager"></listener>
@@ -9,19 +9,19 @@
 	<test name="UserTest">
 		<classes>
 			<!-- <class name="api.tests.DDTests" />-->
-			<!-- 	<class name="api.tests.UserTests"/>-->
+			<class name="api.tests.UserTests"/>
 			<!-- <class name="api.tests.UserTests2"/> -->
 				<!-- <class name="api.tests.DDTests2" />	 -->
 		</classes>
 
 	</test> <!--PetTest -->
-<!--
+
 	<test name="StoreTest">
 		<classes>
 			<class name="api.tests.StoreTests" />
 		</classes>
 
-	</test> StoreTest -->
+	</test>  <!-- StoreTest -->
 	
 	<test name="PetTest">
 		<classes>
