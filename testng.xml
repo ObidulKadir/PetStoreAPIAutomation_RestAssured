@@ -9,9 +9,9 @@
 	<test name="UserTest">
 		<classes>
 			<!-- <class name="api.tests.DDTests" />-->
-			<class name="api.tests.UserTests"/>
+			<class name="api.tests.UserTests" />
 			<!-- <class name="api.tests.UserTests2"/> -->
-				<!-- <class name="api.tests.DDTests2" />	 -->
+			<!-- <class name="api.tests.DDTests2" />	 -->
 		</classes>
 
 	</test> <!--PetTest -->
@@ -21,8 +21,9 @@
 			<class name="api.tests.StoreTests" />
 		</classes>
 
-	</test>  <!-- StoreTest -->
-	
+	</test>  <!--
+	StoreTest -->
+
 	<test name="PetTest">
 		<classes>
 			<class name="api.tests.PetTests" />
