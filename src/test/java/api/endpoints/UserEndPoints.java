@@ -22,7 +22,7 @@ public class UserEndPoints {
 		return response;
 	}
 
-//	2. The "Read User" Button (POST)
+//	2. The "Read User" Button
 	public static Response readUser(String userName) {
 		Response response = given().pathParam("username", userName).when().get(Routes.get_url); // loop up the address in out address book (Routes)
 

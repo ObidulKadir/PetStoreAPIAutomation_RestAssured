@@ -4,16 +4,14 @@
   <listeners>
     <listener class-name="api.utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="StoreTest(failed)">
+  <test thread-count="5" name="PetTest(failed)">
     <classes>
-      <class name="api.tests.StoreTests">
+      <class name="api.tests.PetTests">
         <methods>
-          <include name="testGetOrderById"/>
-          <include name="testDeleteOrder"/>
+          <include name="testUpdatePet"/>
           <include name="setupData"/>
-          <include name="testPostOrder"/>
         </methods>
-      </class> <!-- api.tests.StoreTests -->
+      </class> <!-- api.tests.PetTests -->
     </classes>
-  </test> <!-- StoreTest(failed) -->
+  </test> <!-- PetTest(failed) -->
 </suite> <!-- Failed suite [PetSuite] -->

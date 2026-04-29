@@ -26,6 +26,11 @@ public class Routes {
 	public static String getOrder_URL = base_url + "/store/order/{orderId}";
 	public static String DeleteOrder_URL = base_url + "/store/order/{orderId}";
 
+	// pet module 
+	
+	public static String createPet_url = "https://petstore.swagger.io/v2/pet";	
+	public static String getPet_url = "https://petstore.swagger.io/v2/pet/{petId}";
+	public static String updatePet_url = "https://petstore.swagger.io/v2/pet/{petId}";
 	
 	
 }

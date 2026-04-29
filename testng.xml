@@ -6,7 +6,7 @@
 		<listener class-name="api.utilities.ExtentReportManager"></listener>
 	</listeners>
 
-	<test name="PetTest">
+	<test name="UserTest">
 		<classes>
 			<!-- <class name="api.tests.DDTests" />-->
 			<!-- 	<class name="api.tests.UserTests"/>-->
@@ -15,10 +15,17 @@
 		</classes>
 
 	</test> <!--PetTest -->
-
+<!--
 	<test name="StoreTest">
 		<classes>
 			<class name="api.tests.StoreTests" />
+		</classes>
+
+	</test> StoreTest -->
+	
+	<test name="PetTest">
+		<classes>
+			<class name="api.tests.PetTests" />
 		</classes>
 
 	</test> <!--StoreTest -->
