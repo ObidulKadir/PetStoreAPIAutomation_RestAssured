@@ -1,9 +1,17 @@
+D:\PersonalSpace\PracticeSpace\Rest Assured\PetStoreAutomation\src\test\java\api\endpoints\PetEndPoints.java
 D:\PersonalSpace\PracticeSpace\Rest Assured\PetStoreAutomation\src\test\java\api\endpoints\Routes.java
+D:\PersonalSpace\PracticeSpace\Rest Assured\PetStoreAutomation\src\test\java\api\endpoints\StoreEndPoints.java
 D:\PersonalSpace\PracticeSpace\Rest Assured\PetStoreAutomation\src\test\java\api\endpoints\UserEndPoints.java
 D:\PersonalSpace\PracticeSpace\Rest Assured\PetStoreAutomation\src\test\java\api\endpoints\UserEndPoints2.java
+D:\PersonalSpace\PracticeSpace\Rest Assured\PetStoreAutomation\src\test\java\api\payload\Category.java
+D:\PersonalSpace\PracticeSpace\Rest Assured\PetStoreAutomation\src\test\java\api\payload\Pet.java
+D:\PersonalSpace\PracticeSpace\Rest Assured\PetStoreAutomation\src\test\java\api\payload\Store.java
+D:\PersonalSpace\PracticeSpace\Rest Assured\PetStoreAutomation\src\test\java\api\payload\Tag.java
 D:\PersonalSpace\PracticeSpace\Rest Assured\PetStoreAutomation\src\test\java\api\payload\User.java
 D:\PersonalSpace\PracticeSpace\Rest Assured\PetStoreAutomation\src\test\java\api\tests\DDTests.java
 D:\PersonalSpace\PracticeSpace\Rest Assured\PetStoreAutomation\src\test\java\api\tests\DDTests2.java
+D:\PersonalSpace\PracticeSpace\Rest Assured\PetStoreAutomation\src\test\java\api\tests\PetTests.java
+D:\PersonalSpace\PracticeSpace\Rest Assured\PetStoreAutomation\src\test\java\api\tests\StoreTests.java
 D:\PersonalSpace\PracticeSpace\Rest Assured\PetStoreAutomation\src\test\java\api\tests\UserTests.java
 D:\PersonalSpace\PracticeSpace\Rest Assured\PetStoreAutomation\src\test\java\api\tests\UserTests2.java
 D:\PersonalSpace\PracticeSpace\Rest Assured\PetStoreAutomation\src\test\java\api\utilities\DataProviders.java
